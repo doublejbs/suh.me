@@ -34,7 +34,7 @@ a:hover{
     height: 92%;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
     margin-right: 10px;
-    border: 1px solid black;
+    
 }
 .menu-title:hover{
     color: green;
@@ -58,7 +58,7 @@ a:hover{
     width: 60%;
     height: 92%;
     top: 4%;
-    border: 1px solid black;
+    
 }
 
 .logo{
