@@ -1,18 +1,19 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="./style.css" type="text/css">
+        <link rel="stylesheet" href="../style.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
         <script
           src="https://code.jquery.com/jquery-2.2.4.min.js"
           integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
           crossorigin="anonymous"></script>
-          <script src="./script.js"></script>
+          <script src="../script.js"></script>
+          <script src="./canvas-script.js"></script>
     </head>
     <body>
         <div class="nav">
-            <div class="logo">Jinyong<br>Suh</div>
+            <div class="logo"><a href="./index.html">Jinyong<br>Suh</a></div>
             <div class="menu">
                <div class="profile">
                     <div class="menu-title"><a href="./profile.html">Profile</a></div>
@@ -20,7 +21,7 @@
                <div class="playground">
                     <div class="menu-title">Playground</div>
                     <div class="menu-list">
-                        <li><a href="./canvas1/index.html">1.canvas</a></li>
+                        <li><a href="./index.html">1.canvas</a></li>
                         <li><a href="">2.canvas</a></li>
                         <li><a href="">3.canvas</a></li>
                     </div>
@@ -30,7 +31,13 @@
                </div>
             </div>
         </div>
-        <div class="content"></div>
+        <div class="content">
+                <div id="content" style="background-color: rebeccapurple">
+           <canvas id="mycanvas">
+                This is fallback message for old browsers
+            </canvas>
+        </div>
+        </div>
     </body>
     
 </html>
