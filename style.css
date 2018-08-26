@@ -10,18 +10,16 @@ html, body{
 a{
     text-decoration: none;
     color: black;
-    font-weight: 400;
 }
 a:visited{
     text-decoration: none;
     color: black;
 }
-a:active{
-   font-weight: 800;
-}
+
 
 a:hover{
      color: green;
+     
 }
 
 
@@ -29,22 +27,38 @@ a:hover{
 .nav{
     position: relative;
     display: inline;
-    top: 50px;
-    left: 100px;
+    top: 4%;
+    left: 8%;
     float: left;
-    width: 10%;
+    width: 20%;
+    height: 92%;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-    font-weight: 900;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.menu-title:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.logo:hover{
+    
+    cursor: pointer;
+}
+
+.menu-list{
+    display: none;
 }
 
 .content{
     float: right;
     position: relative;
     display: inline;
-    right: 100px;
-    width: 75%;
-    height: 90%;
-    top: 50px;
+    right: 8%;
+    width: 60%;
+    height: 92%;
+    top: 4%;
+    border: 1px solid black;
 }
 
 .logo{
