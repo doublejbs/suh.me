@@ -15,8 +15,4 @@ $(document).ready(function(){
         
 
     });
-    
-    $('.logo').click(function(){
-       console.log('hi'); 
-    });
 });
