@@ -1,0 +1,62 @@
+
+li{
+    list-style: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+   font-weight: 800;
+}
+
+a:hover{
+     color: green;
+}
+
+
+
+.nav{
+    position: relative;
+    display: inline;
+    top: 50px;
+    left: 100px;
+    float: left;
+    width: 10%;
+}
+
+.content{
+    float: right;
+    position: relative;
+    display: inline;
+    right: 100px;
+    width: 75%;
+    height: 90%;
+    top: 50px;
+}
+
+.logo{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.menu{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+
+.menu div{
+    margin-bottom: 10px;
+}
