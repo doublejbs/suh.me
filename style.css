@@ -23,7 +23,7 @@ a:hover{
 }
 
 .nav{
-    position: relative;
+    position: fixed;
     display: inline;
     top: 4%;
     left: 8%;
