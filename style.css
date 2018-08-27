@@ -101,7 +101,7 @@ a:hover{
     
     .hamburger{
         display: inline;
-        position: relative;
+        position: fixed;
         float: right;
         right: 8%;
         width: 60px;
@@ -115,9 +115,9 @@ a:hover{
     
     .close{
         display: inline;
-        position: relative;
+        position: fixed;
         float: right;
-        right: -8%;
+        right: 8%;
         width: 60px;
         height: 60px;
         top: 5%;
