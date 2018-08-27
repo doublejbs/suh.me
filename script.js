@@ -15,4 +15,29 @@ $(document).ready(function(){
         
 
     });
+    
+    $('.hamburger').click(function(){
+        console.log('hh');
+        
+        if($('.close').css('z-index') == '80'){
+            $(this).css('transform', 'scale(100,100)');
+            $('.close').css('z-index', '200');
+            $('.menu').css('display', 'block');
+        }
+        
+    });
+    
+    
+    
+    $('.close').click(function(){
+        
+        if($('.close').css('z-index') == '200'){
+            $('.hamburger').css('transform', 'scale(1,1)');
+            $('.close').css('z-index', '80');
+            $('.menu').css('display', 'none');
+        }
+        
+    });
+    
+    
 });
