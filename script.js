@@ -34,7 +34,10 @@ $(document).ready(function(){
         if($('.close').css('z-index') == '200'){
             $('.hamburger').css('transform', 'scale(1,1)');
             $('.close').css('z-index', '80');
-            $('.menu').css('display', 'none');
+            setTimeout(function(){
+                $('.menu').css('display', 'none');
+            }, 400);
+            
         }
         
     });
