@@ -48,7 +48,14 @@ a:hover{
     cursor: pointer;
 }
 
-.nav .menu-list{
+.menu{
+    display: none;
+}
+
+.nav .menu{
+    display: block;
+}
+.menu-list{
     display: none;
 }
 
