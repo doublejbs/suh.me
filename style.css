@@ -135,7 +135,7 @@ a:hover{
         margin: 0 auto;
         top: 0;
         display: none;
-        background: green;
+        transition: 0.9s;
         z-index: 120;
     }
     .menu-inside{
