@@ -104,7 +104,7 @@ a:hover{
     }
     
     .menu{
-        
+        overflow: hidden;
         font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
         position: absolute;
         text-align: center;
