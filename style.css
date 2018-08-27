@@ -17,10 +17,8 @@ a:visited{
     color: black;
 }
 
-
 a:hover{
      color: green;
-     
 }
 .hamburger{
     display: none;
@@ -150,9 +148,10 @@ a:hover{
         margin-bottom: 40px;
     }
     
-    a:hover{
+    .menu-inside a:hover{
         color: black;
     }
+    
     
     
     
