@@ -23,7 +23,11 @@ a:hover{
 .hamburger{
     display: none;
 }
-
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
 .nav{
     position: fixed;
     display: inline;
@@ -37,9 +41,9 @@ a:hover{
     
 }
 .bike{
-    position: relative;
-    top: 20%;
-    
+    position: fixed;
+    bottom: 4%;
+    left: 7%;
 }
 .bike img{
     width: 200px;
@@ -100,11 +104,22 @@ a:hover{
     .nav .menu{
         display: none;
     }
+    .container{
+        
+        
+    }
     
     .nav{
         height: auto;
         width: auto;
     }
+    .bike{
+        position:absolute;
+          top:50%;
+          left:50%;
+          margin:-100px 0 0 -100px;
+    }
+    
     
     .hamburger{
         display: inline;
